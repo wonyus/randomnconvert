@@ -1,0 +1,35 @@
+{
+	"name": "frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.10.4",
+		"@emotion/server": "^11.10.0",
+		"@emotion/styled": "^11.10.4",
+		"@mantine/core": "^5.4.1",
+		"@mantine/hooks": "^5.4.1",
+		"@mantine/next": "^5.4.1",
+		"@mantine/form": "^5.4.1",
+		"@mantine/notifications": "^5.4.1",
+		"@reduxjs/toolkit": "^1.8.5",
+		"yup": "^0.32.11",
+		"jotai": "^1.8.4",
+		"next": "12.3.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@types/node": "18.7.21",
+		"@types/react": "18.0.21",
+		"@types/react-dom": "18.0.6",
+		"eslint-config-custom": "*",
+		"tsconfig": "*",
+		"typescript": "^4.8.3"
+	}
+}
